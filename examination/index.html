@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Examination Cell</title>
+
+    <script>
+      function tabChange(tab) {
+        console.log(document.getElementsByClassName("notices-lists"));
+        if (tab === "notices") {
+          document.getElementsByClassName("notices-lists")[0].style.display =
+            "flex";
+          document.getElementsByClassName("results-lists")[0].style.display =
+            "none";
+          document.getElementsByClassName("datesheet-lists")[0].style.display =
+            "none";
+        }
+
+        if (tab === "results") {
+          document.getElementsByClassName("notices-lists")[0].style.display =
+            "none";
+          document.getElementsByClassName("results-lists")[0].style.display =
+            "flex";
+          document.getElementsByClassName("datesheet-lists")[0].style.display =
+            "none";
+        }
+
+        if (tab === "datesheet") {
+          document.getElementsByClassName("notices-lists")[0].style.display =
+            "none";
+          document.getElementsByClassName("results-lists")[0].style.display =
+            "none";
+          document.getElementsByClassName("datesheet-lists")[0].style.display =
+            "flex";
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="../src/style.css">
+  </head>
+  <body>
+    <header id="main-header">
+      <img src="../img/logo.png" alt="Logo" class="logo">
+      <div class="heading">
+        GOVIND BALLABH PANT UNIVERSITY OF AGRICULTURE &amp; TECHNOLOGY<br>
+        गोविन्द बल्लभ पंत कृषि एवं प्रौद्योगिक विश्वविद्यालय
+      </div>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="../login/">Login</a>
+        <a href="../student/">Student</a>
+        <a href="../faculty/">Faculty</a>
+        <a href="../administration/">Administration</a>
+        <a href="../placement/">Placement</a>
+        <a href="../examination/">Examination</a>
+      </nav>
+    </header>
+    <div class="navigation-bar">
+      <p class="tabs" onclick="tabChange('notices')">Notices</p>
+      <p class="tabs" onclick="tabChange('datesheet')">Datesheets</p>
+      <p class="tabs" onclick="tabChange('results')">Results</p>
+    </div>
+    <div class="notices-lists">
+      <h1>EXAMINATION NOTICES</h1>
+      <table>
+        <tr class="">
+          <th class="">Title/Notices</th>
+          <th class="">Uploading Date</th>
+        </tr>
+        <tr class="">
+          <td class="notice-title">
+            List of applicants who have applied for Inspection of evaluated
+            answer sheets / providing certified copies in respect of End Term
+            examination of LLM programme held in April 2021
+          </td>
+          <td class="notice-dates">16-12-21</td>
+        </tr>
+        <tr class="">
+          <td class="notice-title">
+            Schedule for Collection & Submission of Registration Chart(s) for
+            all the Programme for Even Semester Supplementary Examination (Dec.
+            2021 / Jan. 2022).
+          </td>
+          <td class="notice-dates">15-12-21</td>
+        </tr>
+        <tr class="">
+          <td class="notice-title">
+            Conduct of Online Proctored Examinations for End Term Odd Semester
+            Theory Examinations (2021-2022).
+          </td>
+          <td class="notice-dates">15-12-21</td>
+        </tr>
+        <tr class="">
+          <td class="notice-title">
+            List of applicants who have applied for Inspection / Certified copy
+            of Evaluated answer sheets in respect of End Term Examination of
+            B.Tech. programme (USS).
+          </td>
+          <td class="notice-dates">15-12-21</td>
+        </tr>
+        <tr class="">
+          <td class="notice-title">
+            Ph.D. Notification for award of Doctor of Philosophy.
+          </td>
+          <td class="notice-dates">15-12-21</td>
+        </tr>
+        <tr class="">
+          <td class="notice-title">Notice regarding Datesheet for M.C.A.</td>
+          <td class="notice-dates">15-12-21</td>
+        </tr>
+        <tr class="">
+          <td class="notice-title">
+            Schedule for collection & submission of Registration Chart(s) for
+            all the Programmes for Odd Semester Supplementary Examinations
+            (Nov-Dec. 2021)
+          </td>
+          <td class="notice-dates">01-12-21</td>
+        </tr>
+
+        <tr class="">
+          <td class="notice-title">
+            Schedule for collection & submission of Registration Chart(s) for
+            all the Programmes for Odd Semester Supplementary Examinations
+            (Nov-Dec. 2021)
+          </td>
+          <td class="notice-dates">01-12-21</td>
+        </tr>
+
+        <tr class="">
+          <td class="notice-title">
+            Schedule for collection & submission of Registration Chart(s) for
+            all the Programmes for Odd Semester Supplementary Examinations
+            (Nov-Dec. 2021)
+          </td>
+          <td class="notice-dates">01-12-21</td>
+        </tr>
+
+        <tr class="">
+          <td class="notice-title">
+            Schedule for collection & submission of Registration Chart(s) for
+            all the Programmes for Odd Semester Supplementary Examinations
+            (Nov-Dec. 2021)
+          </td>
+          <td class="notice-dates">01-12-21</td>
+        </tr>
+
+        <tr class="">
+          <td class="notice-title">
+            Schedule for collection & submission of Registration Chart(s) for
+            all the Programmes for Odd Semester Supplementary Examinations
+            (Nov-Dec. 2021)
+          </td>
+          <td class="notice-dates">01-12-21</td>
+        </tr>
+        <tr class="">
+          <td class="notice-title">
+            Schedule for collection & submission of Registration Chart(s) for
+            all the Programmes for Odd Semester Supplementary Examinations
+            (Nov-Dec. 2021)
+          </td>
+          <td class="notice-dates">01-12-21</td>
+        </tr>
+
+        <tr class="">
+          <td class="notice-title">
+            Schedule for collection & submission of Registration Chart(s) for
+            all the Programmes for Odd Semester Supplementary Examinations
+            (Nov-Dec. 2021)
+          </td>
+          <td class="notice-dates">01-12-21</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="datesheet-lists">
+      <h1>DATESHEET</h1>
+      <table>
+        <tr class="">
+          <th class="">Title/Notices</th>
+          <th class="">Uploading Date</th>
+        </tr>
+        <tr class="">
+          <td class="notice-title">
+            Notice regarding datesheet for B.Tech. (BT/CE/BCE)
+          </td>
+          <td class="notice-dates">16-12-21</td>
+        </tr>
+        <tr class="">
+          <td class="notice-title">
+            Final Practical Datesheet for Examination (Dec. 2021) for M.Tech
+            (BT/CE/BCE)
+          </td>
+          <td class="notice-dates">15-12-21</td>
+        </tr>
+        <tr class="">
+          <td class="notice-title">
+            Final Practical Datesheet for Examination (Dec. 2021) for M.C.A.
+          </td>
+          <td class="notice-dates">15-12-21</td>
+        </tr>
+        <tr class="">
+          <td class="notice-title">
+            Proposed Theory / Practical Datesheet for Examination (Dec. 2021)
+            for M.Tech.(CSE/ECE) Weeken
+          </td>
+          <td class="notice-dates">15-12-21</td>
+        </tr>
+        <tr class="">
+          <td class="notice-title">
+            Ph.D. Notification for award of Doctor of Philosophy.
+          </td>
+          <td class="notice-dates">15-12-21</td>
+        </tr>
+        <tr class="">
+          <td class="notice-title">Notice regarding Datesheet for M.C.A.</td>
+          <td class="notice-dates">15-12-21</td>
+        </tr>
+        <tr class="">
+          <td class="notice-title">
+            Revised Final Practical Datesheet for End Term Examinations (Jan.
+            2022) for M.Tech. (Engg. Physics)
+          </td>
+          <td class="notice-dates">01-12-21</td>
+        </tr>
+
+        <tr class="">
+          <td class="notice-title">
+            Final / Proposed Practical Datesheet for B.Com. (H), B.Ed. ,B.Sc.
+            (Yoga), BAJMC/BJMC, MA (CRIM), M.Sc. (FS), M.Sc. (EM/NRM/EMBC),
+            M.Ed., MBA (IT), M.SC (YOGA), M.Tech (Engg. Phy), MBA/ MBA(FA/FM/IB)
+          </td>
+          <td class="notice-dates">01-12-21</td>
+        </tr>
+
+        <tr class="">
+          <td class="notice-title">
+            Appearing list for the Examination (Dec.21-Jan.22) for various
+            programmes
+          </td>
+          <td class="notice-dates">01-12-21</td>
+        </tr>
+
+        <tr class="">
+          <td class="notice-title">
+            Final Theory / Practical Datesheet of Supplementary / Special Chance
+            Examination (Nov. 2021) for B.Tech. (BT/CE/ECE)
+          </td>
+          <td class="notice-dates">01-12-21</td>
+        </tr>
+
+        <tr class="">
+          <td class="notice-title">
+            Revised Final Practical Date sheet for Supplementary Examinations
+            (Nov. 2021) for BHMS (II, III and IV)
+          </td>
+          <td class="notice-dates">01-12-21</td>
+        </tr>
+        <tr class="">
+          <td class="notice-title">
+            Notice regarding date of paper change regarding revised final
+            datesheet of BAMS (I/II/III/IV Year) Practical
+          </td>
+          <td class="notice-dates">01-12-21</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="results-lists">
+      <h1>EXAMINATION RESULTS</h1>
+      <table>
+        <tr class="">
+          <th class="">Title/Notices</th>
+          <th class="">Uploading Date</th>
+        </tr>
+        <tr class="">
+          <td class="notice-title">
+            Exam (Oct. 2020) Rechecking Result for BDS
+          </td>
+          <td class="notice-dates">16-12-21</td>
+        </tr>
+        <tr class="">
+          <td class="notice-title">
+            Exam (Sept. 2020) Rechecking Result for MPT(C)
+          </td>
+          <td class="notice-dates">15-12-21</td>
+        </tr>
+        <tr class="">
+          <td class="notice-title">
+            Exam (Oct. 2020) Rechecking Result for BAMS
+          </td>
+          <td class="notice-dates">15-12-21</td>
+        </tr>
+        <tr class="">
+          <td class="notice-title">
+            Exam (July 2021) Result for B.Sc(MLT), 1st & 2nd Sem
+          </td>
+          <td class="notice-dates">15-12-21</td>
+        </tr>
+        <tr class="">
+          <td class="notice-title">
+            Exam (June 2021) Result for B.Voc, 2nd Sem
+          </td>
+          <td class="notice-dates">15-12-21</td>
+        </tr>
+        <tr class="">
+          <td class="notice-title">
+            Exam (June 2021) Result for B.Voc, 4th Sem.
+          </td>
+          <td class="notice-dates">15-12-21</td>
+        </tr>
+        <tr class="">
+          <td class="notice-title">
+            Exam (June 2021) Result for B.Voc, 4th Sem
+          </td>
+          <td class="notice-dates">01-12-21</td>
+        </tr>
+
+        <tr class="">
+          <td class="notice-title">
+            Exam (Aug. 2021) Revised Result for BDS, Enrol. No. 04950759117
+          </td>
+          <td class="notice-dates">01-12-21</td>
+        </tr>
+
+        <tr class="">
+          <td class="notice-title">
+            Exam (Aug. 2021) Result for BPO, 1st Year
+          </td>
+          <td class="notice-dates">01-12-21</td>
+        </tr>
+
+        <tr class="">
+          <td class="notice-title">Exam (Nov. 2020) Result for B.Tech.</td>
+          <td class="notice-dates">01-12-21</td>
+        </tr>
+
+        <tr class="">
+          <td class="notice-title">
+            Exam (Aug. 2021) Result for MBBS, 1st Prof.
+          </td>
+          <td class="notice-dates">01-12-21</td>
+        </tr>
+        <tr class="">
+          <td class="notice-title">Exam (March 2021) Result for M.Tech(CE)</td>
+          <td class="notice-dates">01-12-21</td>
+        </tr>
+      </table>
+    </div>
+
+    <footer id="main-footer">
+      &copy; GBPUA&amp;T
+    </footer>
+    <script src="../src/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar
+{
+    background-color: rgb(219, 230, 207);
+    border: 1px solid #fff;
+}
+.layout
+{
+    width: 100%;
+    height: auto;
+   background-color: rgb(219, 230, 207);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.firstrow
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.box
+{
+    margin: 5px 12px;
+}
+.box,
+.box .img-area,
+.buttons button{
+    background-color: rgb(176, 185, 165);
+  box-shadow: -3px -3px 5px #ffffff,3px 3px 5px #ceced1;
+}
+.social-icons a{
+    box-shadow: -1px -1px 2px #ffffff,1px 1px 2px #ceced1;
+}
+
+.box{
+  position: relative;
+  width: 290px;
+  padding: 10px;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+}
+ 
+ 
+ 
+.box .img-area{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-area .inner-area{
+  height: calc(100% - 25px);
+  width: calc(100% - 25px);
+  border-radius: 50%;
+}
+.inner-area img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.box .name{
+  font-size: 23px;
+  font-weight: 500;
+  color: #31344b;
+  margin: 10px 0 5px 0;
+}
+.box .about{
+  color: #44476a;
+  font-weight: 400;
+  font-size: 16px;
+}
+.box .social-icons{
+  margin: 15px 0 25px 0;
+}
+.social-icons a{
+  position: relative;
+  height: 40px;
+  width: 40px;
+  margin: 0 5px;
+  display: inline-flex;
+  text-decoration: none;
+  border-radius: 50%;
+}
+ 
+ 
+.social-icons a i{
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+}
+.social-icons a.fb i{
+  color: #4267B2;
+}
+.social-icons a.twitter i{
+  color: #0b3a15;
+}
+.social-icons a.insta i{
+  color: #E1306C;
+}
+.social-icons a.yt i{
+  color: #ff0000;
+}
+.box .buttons{
+  display: flex;
+  width: 50%;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+.buttons button{
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 6px 0;
+  color: #31344b;
+  font-size: 17px;
+  font-weight: 400;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 4;
+}
+.buttons button:first-child{
+  margin-right: 10px;
+}
+.buttons button:last-child{
+  margin-left: 10px;
+}
+
+@media only screen and (max-width:1200px){
+   .box{
+     width: 260px;
+     height: auto;
+     padding: 5px;
+   }
+   .box .buttons
+   {
+     width: 70%;
+   }
+   .buttons button
+   {
+      padding: 4px;
+ 
+   }
+}
+
+@media only screen and (max-width:900px){
+  .firstrow
+
+{
+  display: flex;
+  flex-direction:column;
+}
+.box .buttons
+{
+  width: 50%;
+}
+.box{
+  padding: 10px;
+}
+}

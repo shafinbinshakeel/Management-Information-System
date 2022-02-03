@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.maindiv
+{
+    width:100%;
+    height: 45rem;
+    background-image: url("./images/raipur.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    letter-spacing: .1rem;
+}
+.first,.second
+{
+ width: 50%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ 
+}
+.second
+{
+    align-items: flex-end;
+}
+.boxfirst
+{
+    width: 80%;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    margin-top: 10rem;
+    align-items: center;
+}
+.boxfirst> button[type="submit"]
+{
+    width:6rem;
+    height:2.8rem;
+    background-color: #007fc8;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    border-radius: .2rem;
+}
+.textdiv
+{
+    width: 100%;
+    margin-bottom: .5rem;
+    display: flex;
+    justify-content: center;
+}
+.textdiv>h4{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3rem;
+}
+.placementbody
+{
+    width:100%;
+    height: auto;
+    display: flex;
+    margin:0rem 0rem 3rem 0rem;
+}
+.placementform
+{
+    width: 50%;
+    height: auto;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.placementimage
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.placementimage>img
+{
+    width:35%;
+    height:75%;
+}
+.bodysub
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 5rem;
+}
+.bodysubimg
+{
+width:20%;
+display: flex;
+}
+.bodysubimg>img
+{
+    width:60%;
+    height: 60%;
+}
+.bodytextsub
+{
+    width: 80%;
+   display: flex;
+   flex-direction: column;
+}
+.bodytextsub>h4{
+font-weight: 600;
+}
+.bodytextsub> button[type="submit"]
+{
+    width:6rem;
+    height:2.5rem;
+    background-color: #000ecf;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.recruiters
+{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+.tableimg
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.tablebody
+{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.tabimg{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}

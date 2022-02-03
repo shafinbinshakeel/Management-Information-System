@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: Verdana, sans-serif;
+    background-color: #f1f1f1;
+}
+
+.logo {
+    float: left;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+}
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+#main-header nav {
+    z-index: 1;
+    width: 100%;
+    background-color: #cccccc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main-header nav a {
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#main-header nav a:hover:not(#main-header nav a:focus) {
+    background-color: #ddd;
+    color: #000000;
+}
+
+#main-header nav a:focus {
+    background-color: #1e90ff;
+    color: #ffffff;
+}
+
+#main-body {
+    max-width: 1024px;
+    margin: 50px auto;
+    text-align: justify;
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+.bg {
+    background-image: url("../img/bg.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+#main-footer {
+    z-index: 1;
+    height: 50px;
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
